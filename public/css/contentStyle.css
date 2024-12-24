@@ -1,0 +1,255 @@
+/* Reset some basic styles for consistency across browsers */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Level ONE */
+.background {
+  position: relative;
+  text-align: center;
+}
+
+.box-alpha {
+  position: absolute;
+  top: 20px;
+}
+
+.link-heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.link-heading a {
+  text-decoration: none;
+  color: #000;
+  margin-right: 10px;
+}
+
+.link-heading-le {
+  border: 0.8px solid white;
+  margin-left: 50px;
+}
+
+.head-tit {
+  margin-left: 0px !important;
+  margin-top: 20px;
+  font-size: 2em;
+  color: white;
+}
+
+.star-rating {
+  display: flex;
+}
+
+.star {
+  color: #FFD700;
+  font-size: 1.5em;
+}
+
+.rating-text {
+  margin-left: 10px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+/* Level TWO */
+.betaData {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+  background-color: rgb(219, 231, 255);
+  padding: 40px 20px;
+}
+
+.Card {
+  flex: 1 1 300px;
+  max-width: 38rem;
+  overflow: hidden;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+}
+
+.card-body {
+  background-color: rgb(219, 231, 255);
+  padding: 20px;
+}
+
+.card-text {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.cardBox {
+  max-width: 28rem;
+  /* border-radius: 25px !important; */
+  border-radius: 25px !important;
+  overflow: hidden;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info h3 {
+  margin: 10px 0;
+}
+
+.card-sty {
+  background-color: white;
+  padding: 20px;
+}
+
+.buttonStartLear {
+  border-radius: 25px;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  margin: 10px 0;
+}
+
+
+/* Level THREE */
+.form {
+  border: 1px solid black;
+  width: 100%;
+  max-width: 40rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  padding: 25px;
+  margin: 100px 0px 0px 0px;
+  background-color: rgb(219, 231, 255);
+}
+
+.btn-group {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.btn-secondary {
+  background-color: white !important;
+  color: black !important;
+  border: 1px solid black !important;
+  justify-content: space-between !important;
+}
+
+.btn-secondary:hover {
+  background-color: lightgray !important; /* Optional: Add hover effect */
+  color: black !important;
+}
+
+.dropdown-menu {
+  background-color: white;
+}
+
+
+/* Level FOUR */
+.LevelFour {
+  /* display: flex; */
+  justify-content: center;
+  /* margin: 20px 0; */
+
+}
+
+.benefit {
+  text-align: center;
+  width: 100%;
+  max-width: 50%;
+}
+
+.card-wrapper {
+  max-width: 1100px;
+  margin: 0 60px 35px;
+  padding: 20px 10px;
+  overflow: hidden;
+}
+.card-image {
+  width: 300px;
+  height: 150px;
+  object-fit: fill !important;
+}
+.card-list .card-item {
+  list-style: none;
+}
+
+.card-list .card-item .card-link {
+  /* width: 400px; */
+  user-select: none;
+  display: block;
+  background-color: rgb(148, 180, 248);
+  padding: 18px;
+  border-radius: 12px;
+  text-decoration: none;
+  border: 2px solid transparent;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+  transition: 0.2s ease;
+}
+.card-list .card-item .card-link:hover {
+  border-color: #5372F0;
+}
+
+
+.card-list .card-link .card-image{
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card-list .card-link .badge{
+  color: white;
+  margin: 16px 0 18px;
+  padding: 8px 16px;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.card-list .card-link .card-title {
+  font-size: 1.19rem;
+  color: white;
+  font-weight: 600;
+}
+.card-list .card-link .card-button {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  margin: 30px 0 5px;
+  background: none;
+  cursor: pointer;
+  border: 2px solid #eee;
+  transform: rotate(-45deg);
+}
+
+.card-list .card-link:hover .card-button {
+  color: #fff;
+  background: #5372F0;
+
+}
+
+
+.card-wrapper .swiper-pagination-bullet {
+  height: 13px;
+  width: 13px;
+  opacity: 0.5;
+  background: #5372F0;
+}
+
+.card-wrapper .swiper-pagination-bullet-active {
+  opacity: 1;
+}

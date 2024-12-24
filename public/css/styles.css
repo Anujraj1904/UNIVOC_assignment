@@ -1,0 +1,88 @@
+/* Body */
+.body {
+  background-color: rgb(219, 231, 255);
+}
+
+
+.background {
+  background-image: url('/img/fram.png'), url('/img/image-overlap.png');
+  background-size: cover, cover;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center center, center center;
+  background-blend-mode: multiply;
+  /* Blend the images */
+  height: 390px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  position: relative;
+  /* Ensure the absolute positioning is relative to this container */
+}
+
+.man-img {
+  position: absolute;
+  border-bottom-right-radius: 25px;
+  top: 60%;
+  /* Adjust this value to vertically center or position as needed */
+  right: 2px;
+  /* Adjust this value to set the distance from the right edge */
+  transform: translateY(-50%);
+  /* Center the image vertically */
+  width: 450px;
+  /* Adjust width as needed */
+  height: auto;
+  /* Maintain aspect ratio */
+}
+
+.star-rating {
+  display: flex;
+  margin-left: 50px;
+}
+
+.star {
+  font-size: 24px;
+  /* Adjust the size as needed */
+  color: lightgray;
+  /* Default color for stars */
+}
+
+.star:nth-child(-n+4) {
+  color: gold;
+  /* Golden color for the first 4 stars */
+}
+
+.rating-text {
+  font-size: 24px;
+  /* Adjust the size to match the stars */
+  margin-left: 8px;
+  /* Space between the stars and the rating text */
+}
+
+.head-tit {
+  color: white;
+  margin-left: 50px;
+}
+
+.link-heading {
+  padding-top: 90px;
+  padding-left: 60px;
+}
+
+.link-heading a {
+  text-decoration: none;
+  color: white;
+}
+
+.link-heading-line {
+  border: 0.8px solid white;
+  width: 40%;
+  margin-left: 50px;
+  /* Centers the line horizontally */
+}
+
+.link {
+  margin-right: 20px;
+  /* Adjust the value as needed */
+}
+

@@ -1,0 +1,99 @@
+.search {
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  /* Adjust max width as needed */
+}
+
+.search form {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  padding: 10px 20px;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search i.fa-search {
+  margin-right: 10px;
+  color: #888;
+  /* Icon color */
+}
+
+.search input[type="text"] {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.search button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #888;
+  /* Button icon color */
+  font-size: 20px;
+  /* Button icon size */
+}
+
+.search button i {
+  margin: 0;
+}
+
+.signin {
+  border-color: rgb(69, 138, 194);
+  border-radius: 25px;
+  background-color: white;
+  width: 100px;
+  padding: 10px;
+}
+
+.register {
+  border-color: rgb(69, 138, 194);
+  border-radius: 25px;
+  background-color: rgb(69, 138, 194);
+  color: white;
+  width: 150px;
+  padding: 10px;
+}
+
+.custom-dropdown a {
+  border-radius: 25px;
+  background-color: white;
+  color: black;
+  /* Ensure text color is visible against a white background */
+  margin-left: 50px;
+  align-items: end;
+}
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  border: solid 2px rgb(69, 138, 194);
+  padding: 20px;
+  margin: 20px 20px 0px 20px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.logo_head img {
+  width: 100px;
+  /* Adjust the width as needed */
+  height: auto;
+  /* Maintain aspect ratio */
+}
+
+.button-container {
+  text-align: right;
+  /* Align text (and elements) to the right */
+  padding: 10px;
+  /* Optional: Add some padding */
+}
+
+.button-container button {
+  margin-left: 10px;
+  /* Optional: Add spacing between buttons */
+}
