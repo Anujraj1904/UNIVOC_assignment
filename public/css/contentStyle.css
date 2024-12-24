@@ -160,96 +160,112 @@
 
 
 /* Level FOUR */
-.LevelFour {
-  /* display: flex; */
-  justify-content: center;
-  /* margin: 20px 0; */
-
+.benefits-section {
+  text-align: center; /* Center the content */
+  margin: 20px 0; /* Add some space above and below */
 }
 
-.benefit {
-  text-align: center;
-  width: 100%;
-  max-width: 50%;
+.benefits-section h1 {
+  font-size: 2.5em; /* Adjust font size */
+  color: #333; /* Darker text color */
+  margin-bottom: 10px; /* Space below the heading */
 }
 
-.card-wrapper {
-  max-width: 1100px;
-  margin: 0 60px 35px;
-  padding: 20px 10px;
+.benefits-section hr {
+  width: 50%; /* Adjust the width of the horizontal line */
+  margin: 0 auto; /* Center the horizontal line */
+  border: 1px solid #ccc; /* Change the color and width of the line */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.slider-wrapper {
   overflow: hidden;
+  max-width: 1200px;
+  margin: 0 70px 55px;
 }
-.card-image {
-  width: 300px;
-  height: 150px;
-  object-fit: fill !important;
-}
+
 .card-list .card-item {
-  list-style: none;
-}
-
-.card-list .card-item .card-link {
-  /* width: 400px; */
+  height: auto;
   user-select: none;
-  display: block;
-  background-color: rgb(148, 180, 248);
-  padding: 18px;
-  border-radius: 12px;
-  text-decoration: none;
-  border: 2px solid transparent;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
-  transition: 0.2s ease;
-}
-.card-list .card-item .card-link:hover {
-  border-color: #5372F0;
-}
-
-
-.card-list .card-link .card-image{
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   border-radius: 10px;
+  backdrop-filter: blur(30px);
+  background: rgb(131, 167, 244);
+  border: 1px solid #ffffff80;
 }
 
-.card-list .card-link .badge{
-  color: white;
-  margin: 16px 0 18px;
-  padding: 8px 16px;
-  font-size: 0.95rem;
+.card-list .card-item .user-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 20%;
+  margin-bottom: 40px;
+  /* border: 4px solid #fe0457; */
+  padding: 4px;
+}
+.card-list .card-item .user-name{
+  font-size: 26px;
+  color: #ffffff;
   font-weight: 500;
 }
 
-.card-list .card-link .card-title {
-  font-size: 1.19rem;
-  color: white;
-  font-weight: 600;
-}
-.card-list .card-link .card-button {
-  height: 35px;
-  width: 35px;
-  border-radius: 50%;
-  margin: 30px 0 5px;
-  background: none;
-  cursor: pointer;
-  border: 2px solid #eee;
-  transform: rotate(-45deg);
+.card-list .card-item .user-profession {
+  font-size: 16px;
+  color: #e3e3e3;
+  font-weight: 500;
+  margin: 14px 0 40px;
 }
 
-.card-list .card-link:hover .card-button {
+.card-list .card-item .message-button {
+  font-size: 16px;
+  padding: 10px 35px;
   color: #fff;
-  background: #5372F0;
-
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  background: #fe0457;
+  border: 2px solid transparent;
+  transition: 0.5s;
 }
 
+.card-list .card-item .message-button:hover {
+  background: #ffffff1a;
+  border: 2px solid #fff;
+  color: #fff;
+}
 
-.card-wrapper .swiper-pagination-bullet {
+.slider-wrapper .swiper-pagination-bullet {
+  background: #fff;
   height: 13px;
   width: 13px;
   opacity: 0.5;
-  background: #5372F0;
 }
 
-.card-wrapper .swiper-pagination-bullet-active {
+.slider-wrapper .swiper-pagination-bullet-active {
   opacity: 1;
+}
+
+.slider-wrapper .swiper-slide-button {
+  color: #fff;
+  margin-top: -55px;
+  transition: 0.5s;
+}
+
+.slider-wrapper .swiper-slide-button:hover {
+  color: #fe0457;
+}
+
+@media (max-width: 768px) {
+  .slider-wrapper {
+    margin: 0 20px 40px;
+    padding: 0 30px;
+  }
 }
