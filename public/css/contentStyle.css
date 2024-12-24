@@ -150,7 +150,8 @@
 }
 
 .btn-secondary:hover {
-  background-color: lightgray !important; /* Optional: Add hover effect */
+  background-color: lightgray !important;
+  /* Optional: Add hover effect */
   color: black !important;
 }
 
@@ -161,20 +162,28 @@
 
 /* Level FOUR */
 .benefits-section {
-  text-align: center; /* Center the content */
-  margin: 20px 0; /* Add some space above and below */
+  text-align: center;
+  /* Center the content */
+  margin: 20px 0;
+  /* Add some space above and below */
 }
 
 .benefits-section h1 {
-  font-size: 2.5em; /* Adjust font size */
-  color: #333; /* Darker text color */
-  margin-bottom: 10px; /* Space below the heading */
+  font-size: 2.5em;
+  /* Adjust font size */
+  color: #333;
+  /* Darker text color */
+  margin-bottom: 10px;
+  /* Space below the heading */
 }
 
 .benefits-section hr {
-  width: 50%; /* Adjust the width of the horizontal line */
-  margin: 0 auto; /* Center the horizontal line */
-  border: 1px solid #ccc; /* Change the color and width of the line */
+  width: 50%;
+  /* Adjust the width of the horizontal line */
+  margin: 0 auto;
+  /* Center the horizontal line */
+  border: 1px solid #ccc;
+  /* Change the color and width of the line */
 }
 
 * {
@@ -211,7 +220,8 @@
   /* border: 4px solid #fe0457; */
   padding: 4px;
 }
-.card-list .card-item .user-name{
+
+.card-list .card-item .user-name {
   font-size: 26px;
   color: #ffffff;
   font-weight: 500;
@@ -268,4 +278,85 @@
     margin: 0 20px 40px;
     padding: 0 30px;
   }
+}
+
+/* Level FIVE */
+
+.levelFive {
+  display: flex;
+  justify-content: space-around;
+}
+
+/*  */
+.job-roles-section {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.job-roles-section h1 {
+  font-size: 2.5em;
+  /* Adjust font size */
+  color: #333;
+  /* Darker text color */
+  margin-bottom: 10px;
+  /* Space below the heading */
+}
+
+.job-roles-section hr {
+  width: 50%;
+  /* Adjust the width of the horizontal line */
+  margin: 10px auto;
+  /* Center the horizontal line */
+  border: 1px solid #ccc;
+  /* Change the color and width of the line */
+}
+
+.job-roles-columns {
+  display: flex;
+  /* Use Flexbox for the column layout */
+  justify-content: center;
+  /* Center the columns */
+}
+
+
+.job-roles-list {
+  list-style-type: none;
+  /* Remove default bullet points */
+  padding: 0;
+  /* Remove default padding */
+  margin: 30px;
+  /* Remove default margin */
+  text-align: left;
+  /* Align text to the left */
+  display: inline-block;
+  /* Make the list inline-block to center it */
+}
+
+.job-roles-list li {
+  font-size: 1.2em;
+  /* Adjust font size */
+  color: #555;
+  /* Slightly lighter text color */
+  margin: 5px 0;
+  /* Space between list items */
+}
+
+/*  */
+
+.course-rating {
+  font-size: 1em;
+  color: #666;
+}
+
+.stars {
+  color: #FFD700; /* Gold color for stars */
+}
+
+.cardImg {
+  display: flex;
+}
+
+.cardImg img {
+  width: 100px;
+  margin: 0px 10px 10px;
 }
