@@ -360,3 +360,20 @@
   width: 100px;
   margin: 0px 10px 10px;
 }
+
+/* LevelSIX */
+.levelSIX {
+  background-image: url('/img/Level6.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 390px;
+  position: relative;
+  /* Ensure the absolute positioning is relative to this container */
+  display: flex;
+  justify-content: space-around;
+}
+
+.contectUsForm {
+  display: inline;
+}
